@@ -1,0 +1,32 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dados , .campo-resultado {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px;
+}
+
+input {
+    width: 50px;
+    height: 30px;
+}
+
+.box1 p {
+    font-size: 15px;
+}
+
+.box2 {
+    font-size: 15px;
+}
+
+.box1 {
+    padding-right: 10px;
+}
+
+
+
