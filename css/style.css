@@ -2,6 +2,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-image: linear-gradient(red, purple, blue);
+    background-attachment: fixed;
+}
+
+/*.container {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,50%);
+    justify-content: center;
+} */
+
+.container h2, .title1 {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
 .dados , .campo-resultado {
     display: flex;
     justify-content: center;
@@ -9,6 +29,12 @@
     border-radius: 20px;
     width: 300px;
     padding: 10px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,0%);
+    justify-content: center;
 }
 
 input {
@@ -18,6 +44,9 @@ input {
 
 .box1 p {
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box2 {
@@ -28,5 +57,15 @@ input {
     padding-right: 10px;
 }
 
-
+.calcular {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    position: relative;
+    left: -25%;
+    border-radius: 5px;
+}
 
